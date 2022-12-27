@@ -1,0 +1,149 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+   xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+   <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG />
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="format-detection" content="date=no" />
+   <meta name="format-detection" content="address=no" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="x-apple-disable-message-reformatting" />
+   <!--[if !mso]><!-->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet">
+   <!--<![endif]-->
+   <title>NVM Install Guide</title>
+
+   <style type="text/css" media="screen">
+      /* Linked Styles */
+      body {
+         font-family: "Open Sans", Arial, sans-serif;
+         padding: 0 !important;
+         margin: 0 !important;
+         width: 100% !important;
+         background:url('./images/nvm-bg.jpg');
+         background-repeat: no-repeat;
+         background-position:center;
+         background-size: cover;
+         -webkit-text-size-adjust: none;
+      }
+      a {
+         padding-left:5px;
+      }
+
+     .setup-steps {
+            font-size: larger;
+            font-weight: 900;
+            padding:20px 0 10px 0;
+      }
+      .h2 {
+         font-size: large;
+         font-weight: bold;
+         color:#000;
+         background-color: #fff;
+         padding:5px 0;
+      }
+      .image-space {
+            padding:12px 0;
+            width:1002px;
+      }
+      .nvm-img {
+            width:1002px;
+      }
+      
+   </style>
+</head>
+
+<body class="body">
+   <table class="main-container" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+         <td>
+            <table class="table-nvm" width="800" align="center" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td class="td-container" style="width:800px;">
+                     <!-- Header Start -->
+                     <table class="table-container" width="100%"  cellspacing="0" cellpadding="0" 
+                     style="padding-bottom:20px; background-color: #fff;">
+                        <tr>
+                           <td style="width:190px;">
+                             <img src="./images/neo-logo.png" alt="Neosoft Logo">
+                           </td>
+                           <td style="color:#fff; background-color:#000; text-align: center;
+                           text-transform: uppercase; font-size: 40px; font-weight: bold;">NVM Setup Guide</td>
+                        </tr>
+                     </table>
+                     <!-- Header End -->
+                     <!-- NVM setup steps -->
+                     <table class="table-container" width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="setup-steps" style="padding-top:40px;">STEP 1</td>
+                        </tr>
+                        <tr>
+                           <td class="h2">Install NVM from <a href="https://github.com/coreybutler/nvm-windows/releases">https://github.com/coreybutler/nvm-windows/releases</a></td>
+                        </tr>
+                        <tr>
+                           <td class="p" style="padding:10px 0; font-size:medium; font-weight: 600;">Download executable setup file, click on the file named nvm-setup.exe and finish the setup.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="image-space"><img src="./images/download-nvm.png" alt="NVM download" class="nvm-img"></td>
+                        </tr>
+                        <tr>
+                           <td class="setup-steps">STEP 2</td>
+                        </tr>
+                        <tr>
+                           <td class="h2">Once install check via "nvm -v"</td>
+                        </tr>
+                        <tr>
+                           <td class="image-space"><img src="./images/check-nvm-installation.png" alt="NVM installation" class="nvm-img"></td>
+                        </tr>
+                        <tr>
+                           <td class="setup-steps">STEP 3</td>
+                        </tr>
+                        <tr>
+                           <td class="h2" style="color:#fff; background-color: #000;">Install your desire npm version by visiting <a href="https://nodejs.org/en/download/releases/" style=" color: #fff;">https://nodejs.org/en/download/releases/</a></td>
+                        </tr>
+                        <tr>
+                           <td class="image-space"><img src="./images/node-version-list.png" alt="node version list" class="nvm-img"></td>
+                        </tr>
+                        <tr>
+                           <td class="setup-steps">STEP 4</td>
+                        </tr>
+                        <tr>
+                           <td class="h2" style="color:#fff; background-color: #000;">Copy version name from node website. From cmd "nvm install v12.11.1"</td>
+                        </tr>
+                        <tr><td class="setup-steps">STEP 5</td></tr>
+                        <tr>
+                           <td  class="h2" style="color:#fff; background-color: #000;">Check installed all version via "nvm list"</td>
+                        </tr>
+                        <tr><td class="setup-steps">STEP 6</td></tr>
+                        <tr>
+                           <td  class="h2">Change node version via "nvm use 12.11.1"</td>
+                        </tr>
+                        <tr>
+                           <td class="image-space"><img src="./images/nvm-install-list-use.png" alt="use version" class="nvm-img"></td>
+                        </tr>
+                     </table>
+                     <!-- NVM setup steps end  -->
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+
+   </table>
+</body>
+
+</html>
